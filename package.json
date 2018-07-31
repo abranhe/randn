@@ -1,0 +1,40 @@
+{
+  "name": "randn",
+  "version": "1.0.0",
+  "description": "randn: 🔢 Random Number Generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abranhe/randn.git"
+  },
+  "files": [
+    "index.js"
+  ],
+  "engines": {
+    "node": ">=6"
+  },
+  "keywords": [
+    "num",
+    "number",
+    "random",
+    "random-number",
+    "generator"
+  ],
+  "author": {
+    "name": "Carlos Abraham",
+    "email": "abraham@abranhe.com",
+    "web": "abranhe.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abranhe/randn/issues"
+  },
+  "homepage": "https://go.abranhe.com/randn",
+  "devDependencies": {
+    "ava": "1.0.0-beta.6",
+    "meow": "^5.0.0"
+  }
+}
